@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Classification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .left-panel {
+            width: 25%;
+            padding: 20px;
+            background: #fff;
+            border-right: 2px solid #ddd;
+        }
+        .left-panel h3 {
+            text-align: center;
+        }
+        .class-list {
+            list-style: none;
+            padding: 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .class-list li {
+            padding: 8px;
+            background: #eaeaea;
+            margin: 5px 0;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .center-panel {
+            width: 50%;
+            text-align: center;
+            padding: 20px;
+        }
+        .right-panel {
+            width: 25%;
+            padding: 20px;
+            background: #fff;
+            border-left: 2px solid #ddd;
+        }
+        .upload-section {
+            margin-bottom: 20px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .result-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        pre {
+            background: #eef;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Left Panel: List of 34 Classes -->
+    <div class="left-panel">
+        <h3>Food Categories</h3>
+        <ul class="class-list">
+            {% for class_name in class_names %}
+                <li>{{ class_name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Center Panel: Image Upload & Model Selection -->
+    <div class="center-panel">
+        <h2>Food Image Classification</h2>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <div class="upload-section">
+                <label for="file">Upload an Image:</label>
+                <input type="file" name="file" required>
+            </div>
+            <div class="upload-section">
+                <label for="model">Select Model:</label>
+                <select name="model">
+                    <option value="Custom">Custom Model</option>
+                    <option value="VGG16">VGG16</option>
+                    <option value="ResNet">ResNet</option>
+                </select>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+
+    <!-- Right Panel: Prediction Results -->
+    <div class="right-panel">
+<h3>Prediction Result</h3>
+<div class="result-section">
+    <strong>Predicted Class:</strong>
+    <span style="color: green; font-weight: bold;">
+        {% if predicted_class %}
+            {{ predicted_class }}
+        {% else %}
+            No Prediction Available
+        {% endif %}
+    </span>
+</div>
+
+
+        <h3>Model Metrics</h3>
+        <div class="result-section">
+            <pre>{{ class_metrics }}</pre>
+        </div>
+
+        <h3>Nutrition Information</h3>
+        <div class="result-section">
+            <pre>{{ class_nutrition }}</pre>
+        </div>
+    </div>
+     <br>
+        <br>
+
+        <h3><strong>{{ prediction_text }}</strong></h3>
+
+        <br>
+        <br>
+
+</div>
+
+</body>
+</html>

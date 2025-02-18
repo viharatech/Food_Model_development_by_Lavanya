@@ -1,0 +1,343 @@
+{
+    "Overall_Accuracy": 0.6529,
+    "Baked Potato": {
+        "TP": 7,
+        "TN": 649,
+        "FP": 4,
+        "FN": 13,
+        "Accuracy": 0.9747,
+        "Precision": 0.6364,
+        "Recall": 0.35,
+        "F1-Score": 0.4516
+    },
+    "Crispy Chicken": {
+        "TP": 9,
+        "TN": 646,
+        "FP": 5,
+        "FN": 11,
+        "Accuracy": 0.9762,
+        "Precision": 0.6429,
+        "Recall": 0.45,
+        "F1-Score": 0.5294
+    },
+    "Donut": {
+        "TP": 7,
+        "TN": 652,
+        "FP": 1,
+        "FN": 13,
+        "Accuracy": 0.9792,
+        "Precision": 0.875,
+        "Recall": 0.35,
+        "F1-Score": 0.5
+    },
+    "Fries": {
+        "TP": 13,
+        "TN": 640,
+        "FP": 7,
+        "FN": 7,
+        "Accuracy": 0.979,
+        "Precision": 0.65,
+        "Recall": 0.65,
+        "F1-Score": 0.65
+    },
+    "Hot Dog": {
+        "TP": 10,
+        "TN": 642,
+        "FP": 8,
+        "FN": 10,
+        "Accuracy": 0.9731,
+        "Precision": 0.5556,
+        "Recall": 0.5,
+        "F1-Score": 0.5263
+    },
+    "Sandwich": {
+        "TP": 8,
+        "TN": 652,
+        "FP": 0,
+        "FN": 12,
+        "Accuracy": 0.9821,
+        "Precision": 1.0,
+        "Recall": 0.4,
+        "F1-Score": 0.5714
+    },
+    "Taco": {
+        "TP": 2,
+        "TN": 656,
+        "FP": 2,
+        "FN": 18,
+        "Accuracy": 0.9705,
+        "Precision": 0.5,
+        "Recall": 0.1,
+        "F1-Score": 0.1667
+    },
+    "Taquito": {
+        "TP": 6,
+        "TN": 649,
+        "FP": 5,
+        "FN": 14,
+        "Accuracy": 0.9718,
+        "Precision": 0.5455,
+        "Recall": 0.3,
+        "F1-Score": 0.3871
+    },
+    "apple_pie": {
+        "TP": 6,
+        "TN": 645,
+        "FP": 9,
+        "FN": 14,
+        "Accuracy": 0.9659,
+        "Precision": 0.4,
+        "Recall": 0.3,
+        "F1-Score": 0.3429
+    },
+    "burger": {
+        "TP": 19,
+        "TN": 637,
+        "FP": 4,
+        "FN": 1,
+        "Accuracy": 0.9924,
+        "Precision": 0.8261,
+        "Recall": 0.95,
+        "F1-Score": 0.8837
+    },
+    "butter_naan": {
+        "TP": 18,
+        "TN": 639,
+        "FP": 3,
+        "FN": 2,
+        "Accuracy": 0.9924,
+        "Precision": 0.8571,
+        "Recall": 0.9,
+        "F1-Score": 0.878
+    },
+    "chai": {
+        "TP": 15,
+        "TN": 645,
+        "FP": 0,
+        "FN": 5,
+        "Accuracy": 0.9925,
+        "Precision": 1.0,
+        "Recall": 0.75,
+        "F1-Score": 0.8571
+    },
+    "chapati": {
+        "TP": 17,
+        "TN": 630,
+        "FP": 13,
+        "FN": 3,
+        "Accuracy": 0.9759,
+        "Precision": 0.5667,
+        "Recall": 0.85,
+        "F1-Score": 0.68
+    },
+    "cheesecake": {
+        "TP": 3,
+        "TN": 656,
+        "FP": 1,
+        "FN": 17,
+        "Accuracy": 0.9734,
+        "Precision": 0.75,
+        "Recall": 0.15,
+        "F1-Score": 0.25
+    },
+    "chicken_curry": {
+        "TP": 10,
+        "TN": 648,
+        "FP": 2,
+        "FN": 10,
+        "Accuracy": 0.9821,
+        "Precision": 0.8333,
+        "Recall": 0.5,
+        "F1-Score": 0.625
+    },
+    "chole_bhature": {
+        "TP": 14,
+        "TN": 640,
+        "FP": 6,
+        "FN": 6,
+        "Accuracy": 0.982,
+        "Precision": 0.7,
+        "Recall": 0.7,
+        "F1-Score": 0.7
+    },
+    "dal_makhani": {
+        "TP": 18,
+        "TN": 636,
+        "FP": 6,
+        "FN": 2,
+        "Accuracy": 0.9879,
+        "Precision": 0.75,
+        "Recall": 0.9,
+        "F1-Score": 0.8182
+    },
+    "dhokla": {
+        "TP": 20,
+        "TN": 590,
+        "FP": 50,
+        "FN": 0,
+        "Accuracy": 0.9242,
+        "Precision": 0.2857,
+        "Recall": 1.0,
+        "F1-Score": 0.4444
+    },
+    "fried_rice": {
+        "TP": 18,
+        "TN": 640,
+        "FP": 2,
+        "FN": 2,
+        "Accuracy": 0.994,
+        "Precision": 0.9,
+        "Recall": 0.9,
+        "F1-Score": 0.9
+    },
+    "ice_cream": {
+        "TP": 7,
+        "TN": 651,
+        "FP": 2,
+        "FN": 13,
+        "Accuracy": 0.9777,
+        "Precision": 0.7778,
+        "Recall": 0.35,
+        "F1-Score": 0.4828
+    },
+    "idli": {
+        "TP": 16,
+        "TN": 640,
+        "FP": 4,
+        "FN": 4,
+        "Accuracy": 0.988,
+        "Precision": 0.8,
+        "Recall": 0.8,
+        "F1-Score": 0.8
+    },
+    "jalebi": {
+        "TP": 20,
+        "TN": 634,
+        "FP": 6,
+        "FN": 0,
+        "Accuracy": 0.9909,
+        "Precision": 0.7692,
+        "Recall": 1.0,
+        "F1-Score": 0.8696
+    },
+    "kaathi_rolls": {
+        "TP": 18,
+        "TN": 626,
+        "FP": 16,
+        "FN": 2,
+        "Accuracy": 0.9728,
+        "Precision": 0.5294,
+        "Recall": 0.9,
+        "F1-Score": 0.6667
+    },
+    "kadai_paneer": {
+        "TP": 18,
+        "TN": 629,
+        "FP": 13,
+        "FN": 2,
+        "Accuracy": 0.9773,
+        "Precision": 0.5806,
+        "Recall": 0.9,
+        "F1-Score": 0.7059
+    },
+    "kulfi": {
+        "TP": 19,
+        "TN": 626,
+        "FP": 15,
+        "FN": 1,
+        "Accuracy": 0.9758,
+        "Precision": 0.5588,
+        "Recall": 0.95,
+        "F1-Score": 0.7037
+    },
+    "masala_dosa": {
+        "TP": 17,
+        "TN": 643,
+        "FP": 0,
+        "FN": 3,
+        "Accuracy": 0.9955,
+        "Precision": 1.0,
+        "Recall": 0.85,
+        "F1-Score": 0.9189
+    },
+    "momos": {
+        "TP": 16,
+        "TN": 644,
+        "FP": 0,
+        "FN": 4,
+        "Accuracy": 0.994,
+        "Precision": 1.0,
+        "Recall": 0.8,
+        "F1-Score": 0.8889
+    },
+    "omelette": {
+        "TP": 5,
+        "TN": 655,
+        "FP": 0,
+        "FN": 15,
+        "Accuracy": 0.9778,
+        "Precision": 1.0,
+        "Recall": 0.25,
+        "F1-Score": 0.4
+    },
+    "paani_puri": {
+        "TP": 19,
+        "TN": 630,
+        "FP": 11,
+        "FN": 1,
+        "Accuracy": 0.9818,
+        "Precision": 0.6333,
+        "Recall": 0.95,
+        "F1-Score": 0.76
+    },
+    "pakode": {
+        "TP": 4,
+        "TN": 656,
+        "FP": 0,
+        "FN": 16,
+        "Accuracy": 0.9763,
+        "Precision": 1.0,
+        "Recall": 0.2,
+        "F1-Score": 0.3333
+    },
+    "pav_bhaji": {
+        "TP": 18,
+        "TN": 630,
+        "FP": 12,
+        "FN": 2,
+        "Accuracy": 0.9789,
+        "Precision": 0.6,
+        "Recall": 0.9,
+        "F1-Score": 0.72
+    },
+    "pizza": {
+        "TP": 20,
+        "TN": 630,
+        "FP": 10,
+        "FN": 0,
+        "Accuracy": 0.9848,
+        "Precision": 0.6667,
+        "Recall": 1.0,
+        "F1-Score": 0.8
+    },
+    "samosa": {
+        "TP": 15,
+        "TN": 636,
+        "FP": 9,
+        "FN": 5,
+        "Accuracy": 0.9789,
+        "Precision": 0.625,
+        "Recall": 0.75,
+        "F1-Score": 0.6818
+    },
+    "sushi": {
+        "TP": 12,
+        "TN": 638,
+        "FP": 10,
+        "FN": 8,
+        "Accuracy": 0.9731,
+        "Precision": 0.5455,
+        "Recall": 0.6,
+        "F1-Score": 0.5714
+    }
+}
